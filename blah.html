@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./material.min.css" />
+<script src="./material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+
+<!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  Button
+</button>
+
+
+<!-- Colored FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+
+<!-- FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab">
+  <i class="material-icons">add</i>
+</button>
+
+<!-- Disabled FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab" disabled>
+  <i class="material-icons">add</i>
+</button>
+
+<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">S</button>
+
+<div class="mdl-card">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">title Text Goes Here</h2>
+  </div>
+  <div class="mdl-card__media">
+    <img src="photo.jpg" width="220" height="140" border="0" alt="" style="padding:20px;">
+  </div>
+  <div class="mdl-card__supporting-text">
+    This text might describe the photo and provide further information, such as where and
+    when it was taken.
+  </div>
+  <div class="mdl-card__actions">
+    <a href="(URL or function)">Related Action</a>
+  </div>
+</div>
+
+<div class="mdl-card mdl-shadow--4dp">
+  <div class="mdl-card__media"><img src="skytower.jpg" width="173" height="157" border="0"
+   alt="" style="padding:10px;">
+  </div>
+  <div class="mdl-card__supporting-text">
+    Auckland Sky Tower, taken March 24th, 2014
+  </div>
+  <div class="mdl-card__supporting-text">
+  The Sky Tower is an observation and telecommunications tower located in Auckland,
+  New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+  in the Southern Hemisphere.
+  </div>
+</div>
+
+<style>
+    .demo-chip .mdl-chip__contact {
+        background-image: url("./my.jpg");
+        background-size: cover;
+    }
+</style>
+
+<button class="mdl-chip demo-chip">
+    <span class="mdl-chip__contact">&nbsp;</span>
+    <span class="mdl-chip__text">Chip Text</span>
+    <a href="#" class="mdl-chip__action"><i class="material-icons">cancel</i></a>
+</button>
+
+<!-- Contact Chip -->
+<span class="mdl-chip mdl-chip--contact">
+    <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">A</span>
+    <span class="mdl-chip__text">Contact Chip</span>
+</span>
+
+</body>
+</html>
