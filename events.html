@@ -1,12 +1,49 @@
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./material.min.css" />
 <script src="./material.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 <link rel="stylesheet" href="./ionicons-2.0.1/css/ionicons.min.css" />
+
 </head>
 <body>
-<!-- Wide card with share menu button -->
+
+<div class="mdl-layout mdl-js-layout" id="outer">
+
+
+
+<!-- Simple header with scrollable tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header ">
+  <div class="mdl-layout__header-row">
+	 <div class="mdl-logo">
+	  <img id="club-logo" src="./logo.png" alt="Sustainable IITD logo"/>
+	  </div>
+      <!-- Title -->
+      <span class="mdl-layout-title">Sustainable IITD</span>
+	</div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+	  <a href="./index.html" class="mdl-layout__tab">Home</a>
+      <a href="./events.html" class="mdl-layout__tab">Events</a>
+      <a href="#scroll-tab-3" class="mdl-layout__tab">Projects</a>
+      <a href="#scroll-tab-4" class="mdl-layout__tab">News</a>
+      <a href="#scroll-tab-5" class="mdl-layout__tab">About Us</a>
+      <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+    </div>
+  </header>
+
+
+  <main class="mdl-layout__content">
+  
+  <section class="mdl-layout__tab-panel  mid-body" id="scroll-tab-1">
+      <div class="page-content"><img src="my.jpg" /></div>
+    </section>
+    <section class="mdl-layout__tab-panel is-active mid-body" id="scroll-tab-2">
+	<div class="page-content">
+	<br />
+	<!-- Wide card with share menu button -->
 <style>
 .demo-card-wide.mdl-card {
   width: 512px;
@@ -48,4 +85,133 @@
   </div>
 </div>
 
+<br />
+<!-- Wide card with share menu button -->
+<style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('my.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+</style>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Welcome</h2>
+  </div>
+  <div class="mdl-card__supporting-text blog-text" id="blog2">
+     your test will come here.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <button type="button" 
+            onclick ="document.getElementById('blog2').style.height='auto'">
+        Read more
+    </button>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
+
+	</div>
+    </section>
+    <section class="mdl-layout__tab-panel mid-body" id="scroll-tab-3">
+      <div class="page-content"><img src="my.jpg" /></div>
+    </section>
+    <section class="mdl-layout__tab-panel mid-body" id="scroll-tab-4">
+      <div class="page-content">swing my hearts acrosss the line<br /><br />a<br />b<br />c<br />d<br />e<br />f<br />g<br />e<br />f<br />g<br />e<br />f<br />g<br />e<br />f<br />g<br />e<br />f<br />g</div>
+    </section>
+    <section class="mdl-layout__tab-panel mid-body" id="scroll-tab-5">
+      <div class="page-content">seek it out and ya shall find</div>
+    </section>
+    <section class="mdl-layout__tab-panel mid-body" id="scroll-tab-6">
+      <div class="page-content">old, but i'm not that old</div>
+    </section>
+   
+  </main>
+
+</div>
+
+
+
+
+</div>
+
+<div class="xfooter">
+
+  <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+   
+
+    <div class="mdl-mega-footer__drop-down-section" style="padding-left:30px;">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">&nbspContact Us</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href=""><i class="icon ion-social-google" style="font-size:32;"></i></a>&nbsp
+		    <a href=""><i class="icon ion-social-facebook" style="font-size:32;"></i></a>&nbsp
+		    <a href=""><i class="icon ion-social-linkedin" style="font-size:32;"></i></a>
+		</li>
+        
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <h1 class="mdl-mega-footer__heading">Address</h1>
+      <div>Sustainable IITD</div>
+    </div>
+
+	<div class="mdl-mega-footer__drop-down-section">
+	<h1 class="mdl-mega-footer__heading" style="padding-right:0px; width:300px;">Suggestions, Queries or Complaints</h1>
+  
+<table>
+<tr>
+<td>
+<!-- Floating Multiline Textfield -->
+<div style="">
+<form action="#">
+  
+  <textarea class="mdl-textfield__input" type="text" rows="3" style="width:200px; max-height:100px;min-height:22px; border-width:2px;">
+  </textarea>
+
+  </form>
+</div>
+</td>
+<td>
+<div style="padding-bottom:15px; padding-left:7px;">
+<!-- Mini FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+  <i class="icon ion-android-mail"></i>
+</button>
+</div>
+</td>
+</tr>
+</table>  
+
+
+    </div>
+
+  </div>
+
+
+</footer>
+
+
+</div>
 </body>
+</html>
